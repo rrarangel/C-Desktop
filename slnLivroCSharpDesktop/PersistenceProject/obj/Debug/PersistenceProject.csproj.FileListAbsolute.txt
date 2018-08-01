@@ -1,0 +1,8 @@
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\PersistenceProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\PersistenceProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\ModelProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\ModelProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.csprojResolveAssemblyReference.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.csproj.CoreCompileInputs.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.pdb

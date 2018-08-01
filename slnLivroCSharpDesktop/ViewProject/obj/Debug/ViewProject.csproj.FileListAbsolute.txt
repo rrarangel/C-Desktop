@@ -1,0 +1,16 @@
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.csprojResolveAssemblyReference.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.FormFornecedor.resources
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.Properties.Resources.resources
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.csproj.GenerateResource.Cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.csproj.CoreCompileInputs.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ViewProject.exe.config
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ViewProject.exe
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ViewProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ControllerProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ModelProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\PersistenceProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ControllerProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\ModelProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\bin\Debug\PersistenceProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.exe
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.pdb

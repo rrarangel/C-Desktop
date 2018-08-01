@@ -1,0 +1,6 @@
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ModelProject\bin\Debug\ModelProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ModelProject\bin\Debug\ModelProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ModelProject\obj\Debug\ModelProject.csprojResolveAssemblyReference.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ModelProject\obj\Debug\ModelProject.csproj.CoreCompileInputs.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ModelProject\obj\Debug\ModelProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ModelProject\obj\Debug\ModelProject.pdb

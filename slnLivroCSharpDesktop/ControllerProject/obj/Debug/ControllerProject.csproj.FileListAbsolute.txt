@@ -1,0 +1,10 @@
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.csprojResolveAssemblyReference.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.csproj.CoreCompileInputs.cache
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ControllerProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ControllerProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ModelProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\PersistenceProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ModelProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\PersistenceProject.pdb
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.dll
+E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.pdb
