@@ -14,7 +14,8 @@ namespace ControllerProject
         public Fornecedor Insert(Fornecedor fornecedor)
         {
             return this.repository.InsertFornecedor(fornecedor);
-        }
+        }
+
         public void Remove(Fornecedor fornecedor)
         {
             this.repository.RemoveFornecedor(fornecedor);

@@ -8,3 +8,12 @@ E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ModelProje
 E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\PersistenceProject.pdb
 E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.dll
 E:\Estudo\C#Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ControllerProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ControllerProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ModelProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\PersistenceProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\ModelProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\bin\Debug\PersistenceProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.csprojResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ControllerProject\obj\Debug\ControllerProject.pdb

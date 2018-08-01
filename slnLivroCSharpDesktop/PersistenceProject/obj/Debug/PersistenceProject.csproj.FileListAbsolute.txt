@@ -6,3 +6,10 @@ E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\Persisten
 E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.csproj.CoreCompileInputs.cache
 E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.dll
 E:\Estudo\C#Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\PersistenceProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\PersistenceProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\ModelProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\bin\Debug\ModelProject.pdb
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.csprojResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.dll
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\PersistenceProject\obj\Debug\PersistenceProject.pdb
