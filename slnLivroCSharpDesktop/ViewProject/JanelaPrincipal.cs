@@ -28,10 +28,15 @@ namespace ViewProject
 
         private void compraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            new FormNotaEntrada(notaEntradaController,
-                                fornecedorController, 
-                                produtoController).
-                                ShowDialog();
+            //new FormNotaEntrada(notaEntradaController,
+            //                    fornecedorController, 
+            //                    produtoController).
+            //                    ShowDialog();
+        }
+
+        private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new FormProduto(produtoController).ShowDialog();
         }
     }
 }

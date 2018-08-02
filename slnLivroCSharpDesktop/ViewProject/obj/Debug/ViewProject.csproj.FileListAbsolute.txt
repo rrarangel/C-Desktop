@@ -31,3 +31,4 @@ C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\V
 C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.csproj.GenerateResource.Cache
 C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.FormJanelaPrincipal.resources
 C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.FormNotaEntrada.resources
+C:\Users\Leo\Desktop\BackUp_Rodrigo\C#_Desktop\C-Desktop\slnLivroCSharpDesktop\ViewProject\obj\Debug\ViewProject.FormProduto.resources
