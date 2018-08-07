@@ -58,15 +58,15 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnGravarProduto = new System.Windows.Forms.Button();
+            this.BtnNovoProduto = new System.Windows.Forms.Button();
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnRemoverProduto = new System.Windows.Forms.Button();
+            this.btnCancelarProduto = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.cbxProduto = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.txtCusto = new System.Windows.Forms.TextBox();
+            this.txtQuantidade = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
@@ -369,8 +369,8 @@
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel9, 1, 6);
             this.tableLayoutPanel3.Controls.Add(this.textBox3, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.cbxProduto, 1, 2);
-            this.tableLayoutPanel3.Controls.Add(this.textBox4, 1, 3);
-            this.tableLayoutPanel3.Controls.Add(this.textBox5, 1, 4);
+            this.tableLayoutPanel3.Controls.Add(this.txtCusto, 1, 3);
+            this.tableLayoutPanel3.Controls.Add(this.txtQuantidade, 1, 4);
             this.tableLayoutPanel3.Location = new System.Drawing.Point(469, 34);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 8;
@@ -461,8 +461,8 @@
             this.tableLayoutPanel8.ColumnCount = 2;
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel8.Controls.Add(this.button2, 0, 0);
-            this.tableLayoutPanel8.Controls.Add(this.button1, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.btnGravarProduto, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.BtnNovoProduto, 0, 0);
             this.tableLayoutPanel8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel8.Location = new System.Drawing.Point(3, 169);
             this.tableLayoutPanel8.Name = "tableLayoutPanel8";
@@ -471,31 +471,31 @@
             this.tableLayoutPanel8.Size = new System.Drawing.Size(226, 26);
             this.tableLayoutPanel8.TabIndex = 5;
             // 
-            // button2
+            // btnGravarProduto
             // 
-            this.button2.Location = new System.Drawing.Point(116, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 20);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Gravar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnGravarProduto.Location = new System.Drawing.Point(116, 3);
+            this.btnGravarProduto.Name = "btnGravarProduto";
+            this.btnGravarProduto.Size = new System.Drawing.Size(103, 20);
+            this.btnGravarProduto.TabIndex = 2;
+            this.btnGravarProduto.Text = "Gravar";
+            this.btnGravarProduto.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // BtnNovoProduto
             // 
-            this.button1.Location = new System.Drawing.Point(3, 3);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 20);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Novo";
-            this.button1.UseVisualStyleBackColor = true;
+            this.BtnNovoProduto.Location = new System.Drawing.Point(3, 3);
+            this.BtnNovoProduto.Name = "BtnNovoProduto";
+            this.BtnNovoProduto.Size = new System.Drawing.Size(103, 20);
+            this.BtnNovoProduto.TabIndex = 1;
+            this.BtnNovoProduto.Text = "Novo";
+            this.BtnNovoProduto.UseVisualStyleBackColor = true;
             // 
             // tableLayoutPanel9
             // 
             this.tableLayoutPanel9.ColumnCount = 2;
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel9.Controls.Add(this.button4, 0, 0);
-            this.tableLayoutPanel9.Controls.Add(this.button3, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.btnRemoverProduto, 0, 0);
+            this.tableLayoutPanel9.Controls.Add(this.btnCancelarProduto, 0, 0);
             this.tableLayoutPanel9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel9.Location = new System.Drawing.Point(235, 169);
             this.tableLayoutPanel9.Name = "tableLayoutPanel9";
@@ -504,29 +504,31 @@
             this.tableLayoutPanel9.Size = new System.Drawing.Size(226, 26);
             this.tableLayoutPanel9.TabIndex = 6;
             // 
-            // button4
+            // btnRemoverProduto
             // 
-            this.button4.Location = new System.Drawing.Point(116, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(103, 20);
-            this.button4.TabIndex = 2;
-            this.button4.Text = "Remover";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnRemoverProduto.Location = new System.Drawing.Point(116, 3);
+            this.btnRemoverProduto.Name = "btnRemoverProduto";
+            this.btnRemoverProduto.Size = new System.Drawing.Size(103, 20);
+            this.btnRemoverProduto.TabIndex = 2;
+            this.btnRemoverProduto.Text = "Remover";
+            this.btnRemoverProduto.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnCancelarProduto
             // 
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(103, 20);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Cancelar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnCancelarProduto.Location = new System.Drawing.Point(3, 3);
+            this.btnCancelarProduto.Name = "btnCancelarProduto";
+            this.btnCancelarProduto.Size = new System.Drawing.Size(103, 20);
+            this.btnCancelarProduto.TabIndex = 1;
+            this.btnCancelarProduto.Text = "Cancelar";
+            this.btnCancelarProduto.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
             this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.textBox3.Enabled = false;
             this.textBox3.Location = new System.Drawing.Point(235, 26);
             this.textBox3.Name = "textBox3";
+            this.textBox3.ReadOnly = true;
             this.textBox3.Size = new System.Drawing.Size(200, 20);
             this.textBox3.TabIndex = 7;
             // 
@@ -541,21 +543,21 @@
             this.cbxProduto.Size = new System.Drawing.Size(200, 21);
             this.cbxProduto.TabIndex = 8;
             // 
-            // textBox4
+            // txtCusto
             // 
-            this.textBox4.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox4.Location = new System.Drawing.Point(235, 85);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(106, 20);
-            this.textBox4.TabIndex = 9;
+            this.txtCusto.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtCusto.Location = new System.Drawing.Point(235, 85);
+            this.txtCusto.Name = "txtCusto";
+            this.txtCusto.Size = new System.Drawing.Size(106, 20);
+            this.txtCusto.TabIndex = 9;
             // 
-            // textBox5
+            // txtQuantidade
             // 
-            this.textBox5.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox5.Location = new System.Drawing.Point(235, 113);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(106, 20);
-            this.textBox5.TabIndex = 10;
+            this.txtQuantidade.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtQuantidade.Location = new System.Drawing.Point(235, 113);
+            this.txtQuantidade.Name = "txtQuantidade";
+            this.txtQuantidade.Size = new System.Drawing.Size(106, 20);
+            this.txtQuantidade.TabIndex = 10;
             // 
             // FormNotaEntrada
             // 
@@ -614,15 +616,15 @@
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnGravarProduto;
+        private System.Windows.Forms.Button BtnNovoProduto;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnRemoverProduto;
+        private System.Windows.Forms.Button btnCancelarProduto;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox cbxProduto;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox txtCusto;
+        private System.Windows.Forms.TextBox txtQuantidade;
         private System.Windows.Forms.DataGridView dgvNotasEntrada;
     }
 }

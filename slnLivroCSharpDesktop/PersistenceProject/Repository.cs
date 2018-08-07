@@ -96,6 +96,7 @@ namespace PersistenceProject
             return notaEntrada;
         }
 
+        
 
         /*Nota Entrada ------------------------------------------------*/
 
