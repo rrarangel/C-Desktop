@@ -142,5 +142,77 @@ namespace ViewProject
                 this.notaAtual = new NotaEntrada();
             }
         }
+
+        private void BtnNovoProduto_Click(object sender, EventArgs e)
+        {
+            ClearControlsProduto();
+            if (txtIDNotaEntrada.Text == string.Empty)
+            {
+                MessageBox.Show("Selecione a NOTA, que terá " +
+                "inserção de produtos, no GRID");
+            }
+            else
+            {
+                ChangeStatusOfControls(true);
+            }
+        }
+
+        private void ClearControlsProduto()
+
+        {
+            //TODO: [Implementar]
+            MessageBox.Show("Implementar");
+        }
+
+        private void ChangeStatusOfControls(bool newStatus)
+        {
+            cbxProduto.Enabled = newStatus;
+            txtCusto.Enabled = newStatus;
+            txtQuantidade.Enabled = newStatus;
+            BtnNovoProduto.Enabled = !newStatus;
+            btnGravarProduto.Enabled = newStatus;
+            btnCancelarProduto.Enabled = newStatus;
+            btnRemoverProduto.Enabled = newStatus;
+        }
+
+        private void btnGravarProduto_Click(object sender, EventArgs e)
+        {
+            var produtoNota = new ProdutoNotaEntrada()
+            {
+                Id = (txtIDProduto.Text == string.Empty ?
+                Guid.NewGuid() : new Guid(txtIDProduto.Text)),
+                                PrecoCustoCompra = Convert.ToDouble(txtCusto.Text),
+                                ProdutoNota = (Produto)cbxProduto.SelectedItem,
+                                QuantidadeComprada = Convert.ToDouble(
+                txtQuantidade.Text)
+            };
+
+            this.notaAtual.RegistrarProduto(produtoNota);
+            this.notaAtual = this.controller.Update(
+            this.notaAtual);
+            ChangeStatusOfControls(false);
+            UpdateProdutosGrid();
+            ClearControlsProduto();
+        }
+
+        private void btnCancelarProduto_Click(object sender, EventArgs e)
+        {
+            ClearControlsProduto();
+            ChangeStatusOfControls(false);
+        }
+
+        private void btnRemoverProduto_Click(object sender, EventArgs e)
+        {
+            this.notaAtual.RemoverProduto(
+            new ProdutoNotaEntrada()
+            {
+                Id = new Guid(txtIDProduto.Text)
+            }
+            );
+            this.controller.Update(this.notaAtual);
+            UpdateProdutosGrid();
+            ClearControlsProduto();
+            ChangeStatusOfControls(false);
+        }
     }
 }

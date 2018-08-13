@@ -63,7 +63,7 @@
             this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
             this.btnRemoverProduto = new System.Windows.Forms.Button();
             this.btnCancelarProduto = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtIDProduto = new System.Windows.Forms.TextBox();
             this.cbxProduto = new System.Windows.Forms.ComboBox();
             this.txtCusto = new System.Windows.Forms.TextBox();
             this.txtQuantidade = new System.Windows.Forms.TextBox();
@@ -367,7 +367,7 @@
             this.tableLayoutPanel3.Controls.Add(this.label11, 0, 4);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel8, 0, 6);
             this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel9, 1, 6);
-            this.tableLayoutPanel3.Controls.Add(this.textBox3, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.txtIDProduto, 1, 1);
             this.tableLayoutPanel3.Controls.Add(this.cbxProduto, 1, 2);
             this.tableLayoutPanel3.Controls.Add(this.txtCusto, 1, 3);
             this.tableLayoutPanel3.Controls.Add(this.txtQuantidade, 1, 4);
@@ -479,6 +479,7 @@
             this.btnGravarProduto.TabIndex = 2;
             this.btnGravarProduto.Text = "Gravar";
             this.btnGravarProduto.UseVisualStyleBackColor = true;
+            this.btnGravarProduto.Click += new System.EventHandler(this.btnGravarProduto_Click);
             // 
             // BtnNovoProduto
             // 
@@ -488,6 +489,7 @@
             this.BtnNovoProduto.TabIndex = 1;
             this.BtnNovoProduto.Text = "Novo";
             this.BtnNovoProduto.UseVisualStyleBackColor = true;
+            this.BtnNovoProduto.Click += new System.EventHandler(this.BtnNovoProduto_Click);
             // 
             // tableLayoutPanel9
             // 
@@ -512,6 +514,7 @@
             this.btnRemoverProduto.TabIndex = 2;
             this.btnRemoverProduto.Text = "Remover";
             this.btnRemoverProduto.UseVisualStyleBackColor = true;
+            this.btnRemoverProduto.Click += new System.EventHandler(this.btnRemoverProduto_Click);
             // 
             // btnCancelarProduto
             // 
@@ -521,16 +524,17 @@
             this.btnCancelarProduto.TabIndex = 1;
             this.btnCancelarProduto.Text = "Cancelar";
             this.btnCancelarProduto.UseVisualStyleBackColor = true;
+            this.btnCancelarProduto.Click += new System.EventHandler(this.btnCancelarProduto_Click);
             // 
-            // textBox3
+            // txtIDProduto
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.textBox3.Enabled = false;
-            this.textBox3.Location = new System.Drawing.Point(235, 26);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 7;
+            this.txtIDProduto.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.txtIDProduto.Enabled = false;
+            this.txtIDProduto.Location = new System.Drawing.Point(235, 26);
+            this.txtIDProduto.Name = "txtIDProduto";
+            this.txtIDProduto.ReadOnly = true;
+            this.txtIDProduto.Size = new System.Drawing.Size(200, 20);
+            this.txtIDProduto.TabIndex = 7;
             // 
             // cbxProduto
             // 
@@ -621,7 +625,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel9;
         private System.Windows.Forms.Button btnRemoverProduto;
         private System.Windows.Forms.Button btnCancelarProduto;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtIDProduto;
         private System.Windows.Forms.ComboBox cbxProduto;
         private System.Windows.Forms.TextBox txtCusto;
         private System.Windows.Forms.TextBox txtQuantidade;
